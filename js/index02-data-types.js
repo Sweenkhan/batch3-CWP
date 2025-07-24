@@ -73,6 +73,8 @@ let remainder = 10 % 3                  //1
 // doubleEqual             ==
 // tripleEqual             === 
 // notEqual                !=
+// greater than or equal  >=
+//less than or equal      <=
  
 
 console.log(5 == 5  )                  //true
@@ -86,13 +88,19 @@ console.log("5" === 5)                 //false     note: it will check value and
 console.log(10 != 5)                   //true
 console.log(10 != 10)                  //false 
 
+console.log(10 >= 10)                  //true
+console.log(20 <= 21)                  //true
+
 
 
 
 //c. Logical operator in js
+// &&  And operator
+console.log(5 === 5 &&  4 < 5)         // true            note: //it will give true answer only if both conditions are true
 
 
-
+// || OR operator
+console.log(10 > 9 || 10 > 10)        //  true            note: if one condition is true, it will give true answer    
 
 
 
