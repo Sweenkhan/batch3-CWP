@@ -20,9 +20,6 @@ let booleanToNumber = Number(true)     // it will give you 0 if value is false a
 
 
 
-
-
-
 //parseInt and parseFLoat
 let num3 = "5885858853883.88"
 
@@ -43,4 +40,13 @@ let lastName = "sharma"
 let fullName = firstName + " " + lastName
 
 let array = []
-console.log(typeof array)
+
+
+let studentName = Symbol("rakesh")
+let studentName2 = Symbol("rakesh")
+
+let studentName3 = "rahul"
+let studentName4 = "rahul"
+
+
+console.log(studentName3 === studentName4)
