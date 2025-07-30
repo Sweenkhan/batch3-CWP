@@ -1,7 +1,7 @@
 //String 
 let name = "roshan "
 let lastName = 'KUMAR'
-let fullName = `rahul,kumar,sharma`
+let fullName = `rahul kumar`
 
 
 
@@ -15,8 +15,8 @@ let stringTrim = name.trim()         //to remove empty space from both side(left
 // console.log(stringTrim.toUpperCase())     //to uppercase the string letter
 // console.log(stringTrim.toLowerCase())     //ro lowerCase the string letter
 
-// console.log(fullName.charAt(1))          //to find the character at given index number
-// console.log(fullName.indexOf("l"))       //to find the index number based on given charachter
+// console.log(fullName.charAt(4))                //to find the character based on given index number
+// console.log(fullName.indexOf("k"))          //to find the index number based on given charachter
 
 // console.log(fullName.substring(6, 11))      //to take the value form a string
 //console.log(fullName.slice(6, 11))      //to take the value form a string
