@@ -7,6 +7,7 @@
 let users = []                   // to create a new array
 
 
+// names[1]     //value access
 
 //ARRAY METHODS
 users.push("roshan", "lokesh", "bhanwar", "anjali")   // to add new value from right side or in last index
