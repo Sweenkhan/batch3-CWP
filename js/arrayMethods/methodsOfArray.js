@@ -34,10 +34,19 @@ let mapResult = profiles.map((profile) => {
 //NOTE: it will give you a single value in return, which will be sum of your array
 
 let coins = [1, 2, 10, 5, 20, 100, 0, -4,  500, 40, 55, 66];
+let sale = [1, 2, 10, 5, 20, 100, 0, 200,  500, 40, 55, 66, 399];
 
-let reduceData = coins.reduce((acc, curr) => {
-  return acc = acc + curr;
-});
+// let reduceData = coins.reduce((acc, curr) => {
+//   return acc = acc + curr;
+// });
+
+
+let totalSale = sale.reduce((acc, curr) => {
+
+  return acc = acc + curr
+
+}, 1000 )
+
 
 
 // let count = 0
@@ -47,7 +56,7 @@ let reduceData = coins.reduce((acc, curr) => {
 
 
 // console.log(count)
-// console.log(reduceData);
+console.log(totalSale);
  
 
 
