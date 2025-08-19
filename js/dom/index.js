@@ -6,15 +6,17 @@
 //crud 
 //Read and access of an elements--------------------READ-----------
 
-console.log(document.getElementsByTagName("h2")[0])
-console.log(document.getElementsByClassName("title1")[0])   
-console.log(document.getElementById("heading")) 
+// console.log(document.getElementsByTagName("h2")[0])
+// console.log(document.getElementsByClassName("title1")[0])   
+// console.log(document.getElementById("heading")) 
 
-console.log(document.querySelector("#heading1"))
-console.log(document.querySelector(".title1"))
-console.log(document.querySelector("p"))                    //you will get first pa tag
+// console.log(document.querySelector("#heading1"))
+// console.log(document.querySelector(".title1"))
+// console.log(document.querySelector("p"))                    //you will get first pa tag
+// console.log(document.querySelector("[type='number']"))
+// console.log(document.querySelector("ul li"))
 
-console.log(document.querySelectorAll("p")[1])
+// console.log(document.querySelectorAll("p")[1])
 
 
 
@@ -27,7 +29,7 @@ let heading = document.querySelector("#heading2")
 // heading.textContent                                         //you can see hidden text also
 
 
-heading.style.backgroundColor = "red"
+// heading.style.backgroundColor = "red"
 heading.style.color = "white"
 
 heading.classList.add("title-two")
@@ -35,16 +37,32 @@ heading.classList.remove("title-two")
 heading.classList.replace("title2", "titleTWO")
 heading.classList.contains("titleTWO")                            //true or false
 
-document.querySelector("img").setAttribute("src", "https://images.unsplash.com/photo-1683004411999-a05a153c72d9?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDd8fHxlbnwwfHx8fHw%3D")
-document.querySelector("img").removeAttribute("src")
+let image = document.querySelector("img")
 
+image.setAttribute("src", "https://images.unsplash.com/photo-1683004411999-a05a153c72d9?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDd8fHxlbnwwfHx8fHw%3D")
+//  image.removeAttribute("src")
+image.getAttribute("src")
 
 
 //delete an element ------------------------------DELETE--------------------------
 // heading.innerHTML = ""                     //you can empty the tag 
 // heading.remove()                           //you can delete tag also
 
-
 // document.querySelector(".container").innerHTML = ""     //you can delter the all tags and text from container div
 
 
+
+
+//create an element in js----------------------------------CREATE-------------------------
+let newELement = document.createElement("li")
+newELement.innerText = "about" 
+
+let ul = document.querySelector("ul")
+
+ul.appendChild(newELement)                                    //adding element in ul at the last child position
+//  ul.prepend(newElement)                                     //adding element in ul at the first child position
+
+ 
+
+ 
+console.log(document.body.firstElementChild.lastElementChild.previousElementSibling.previousElementSibling)

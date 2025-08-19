@@ -1,0 +1,23 @@
+body{
+    background-color: grey;
+}
+
+.title1{
+    font-weight: 900;
+    background-color: black;
+}
+
+#heading1{
+    color: white;
+}
+
+input[type = "text"]{
+    border: 2px solid red;
+    padding: 10px
+}
+
+ul li{
+  color: white
+}
+
+
