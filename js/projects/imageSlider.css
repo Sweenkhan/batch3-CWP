@@ -1,0 +1,35 @@
+.container{
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.slider{
+    width: 500px;
+    height: 350px;
+    position: relative;
+    overflow: hidden;
+}
+
+.images{
+    display: flex;
+    position: absolute;
+    left: 0px;
+    top: 0;
+    transition: all 0.8s linear; 
+}
+
+img{
+    width: 500px;
+    height: 350px; 
+}
+button{
+   padding: 8px 24px;
+   font-size: 1.5rem;
+   border: none;
+   border-radius: 10px;
+   background-color: black;
+   color: white;
+}
