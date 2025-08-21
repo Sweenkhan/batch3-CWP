@@ -8,15 +8,15 @@ let leftPx = 0                                                            //savi
 
 nextBtn.addEventListener("click" , () => {
 
-    if(leftPx === (allImages.length - 1) * 500){
+    if(leftPx === 2000){
 
-        imagesContainer.style.left =  "-" + leftPx
+        imagesContainer.style.left =  "-" + leftPx + "px"
+
          alert("this was the last image")
     }else {
         leftPx += 500
-        imagesContainer.style.left =  "-" + leftPx
-    }
-   console.log(leftPx)
+        imagesContainer.style.left =  "-" + leftPx + "px"
+    } 
 })
 
 
@@ -25,10 +25,10 @@ prevBtn.addEventListener("click" , () => {
 
     if(leftPx === 0){
         alert("this is the first image")
-        imagesContainer.style.left =  "-" + leftPx
+        imagesContainer.style.left =  "-" + leftPx + "px"
     }else {
         leftPx -= 500
-        imagesContainer.style.left =  "-" + leftPx
+        imagesContainer.style.left =  "-" + leftPx + "px"
     }
 
 })
