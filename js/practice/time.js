@@ -1,11 +1,10 @@
-
 setTimeout(() =>{
     alert("welcome to our website")
 }, 2000)
 
 
-
 let interValID;
+
 
 document.querySelector(".start").addEventListener("click", () => {
 
@@ -15,11 +14,6 @@ document.querySelector(".start").addEventListener("click", () => {
 }, 1000)
 
 })
-
- 
-
-
-
 
 
 document.querySelector(".stop").addEventListener("click", ()=> {

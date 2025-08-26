@@ -1,0 +1,48 @@
+body{
+    box-sizing: border-box;
+}
+
+div{
+    margin-top: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+input{
+    font-size: 1.3rem;
+}
+
+form button{
+    font-size: 1.4rem;
+    color: white;
+    background-color: green;
+    border: none;
+}
+
+ul{
+    display: none; 
+    flex-direction: column;
+    border: 1px solid green;
+    border-radius: 10px;
+    padding: 1rem;
+    min-height: 40vh;
+    gap: 0.2rem;
+}
+
+li{
+    display: flex;
+    justify-content: space-between;
+    min-width: 400px;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+
+li button{
+    cursor: pointer;
+}
