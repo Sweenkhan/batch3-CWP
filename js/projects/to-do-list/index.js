@@ -15,11 +15,11 @@ btn.addEventListener("click", (e) => {
 
 // creating li and adding innerHTML
   let createLi = document.createElement("li");
-  createLi.innerHTML = input.value + "<span> <button class='deleteBtn'>delete</button> <button class='editBtn'>edit</button>  <button class='doneBtn'>done</button></span></li>";
+  createLi.innerHTML =  input.value + "<span> <button class='deleteBtn'>delete</button>  <button class='doneBtn'>done</button></span></li>";
   createLi.style.backgroundColor = "green"
   createLi.style.color = "white"
 
-  
+
   // adding li to dom
   ul.appendChild(createLi);
 
@@ -47,7 +47,6 @@ btn.addEventListener("click", (e) => {
    doneBtn.innerText = ( doneBtn.innerText === "done") ? "undo" : "done"
 
   });
-
 
   // empty the input value
   input.value = "";
