@@ -18,6 +18,7 @@ function greet(name, callback){
     callback()
 }
 
+
 function goodBye(){
     console.log("good bye ")
 }
@@ -42,4 +43,10 @@ function done(){
     console.log('your task has been completed')
 }
 
-sum(4, 10, done)
+
+function done2(){
+ console.log('your task has been completed bhai sahab')
+}
+
+
+sum(4, 10, done2)
