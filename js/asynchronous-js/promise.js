@@ -76,10 +76,49 @@ let promiseFour = new Promise((resolve, reject) => {
 
 
 
-promiseFour
-.then((data) => {
-   console.log(data)
+
+//---------------------------------consuming promise with chaining-----------------------------
+// promiseFour
+// .then((data) => {
+//    console.log(data)
+// })
+// .catch((err) => {
+//    console.log(err.message)
+// })
+// .finally(() => {
+//    console.log("finally your promise either resolve or rejected")
+// })
+
+
+                                                     //OR
+
+
+//-----------------------------------consuming promise with async await---------------------------------
+let promiseFive = new Promise((resolve, reject) => {
+
+    setTimeout(() => {
+        let loggedIn = true;
+        if(loggedIn === false){
+           resolve({username: "lokesh", email: "lokesh@gmail.com"})
+        } else {
+            reject({message: "your password is wrong!"})
+        }
+        
+    }, 2000);
 })
-.catch((err) => {
-   console.log(err.message)
-})
+
+
+
+async function promiseWithAsync(){
+   try{ 
+      let result = await promiseFive
+      console.log(result)
+
+   }catch(error){
+      
+      console.log(error)
+   }
+}
+
+
+promiseWithAsync()

@@ -20,7 +20,6 @@ let profile3 = {...profile}
 profile3.name = "banwar"
 
 
-
 //note: extracting object data form old object and adding in new object along with some new key value
 let profile4 = {...profile, email: "lokesh@gmail.com", address: "b-12, 1st avenue"}      
 

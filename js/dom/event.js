@@ -19,11 +19,11 @@ btn.onclick = ()=> {
 
 
 //add event listener . you can events add as much as possible .--------------------------
-// btn.addEventListener("click",  greet)
+btn.addEventListener("click",  greet)
 
-// function greet(){
-//     alert("welcome to our website")
-// }
+function greet(){
+    alert("welcome to our website")
+}
 
 
 
