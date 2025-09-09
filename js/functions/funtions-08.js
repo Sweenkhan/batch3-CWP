@@ -9,7 +9,7 @@
 
 
 //A.---------------------------------------------function declarion------------------------------
-// NOTE: it can be hoisted(befor execute)
+// NOTE: it can be hoisted(meand can execute before initialize)
 // return is neccessary
 
 function greet() {
