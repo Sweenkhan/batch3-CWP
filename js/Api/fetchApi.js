@@ -5,11 +5,23 @@
 //  sending data to a remote server,
 //  integrating with a third-party service, or accessing built-in browser features.
 
-//Browsing APIs :-> built into web browser, network request
-//Third APIs   :->  These are external servicec, such as googlemaps javascript APi,
-//Backend APIs  :-> These Apis often called REST APIs are created by developers to enable comunnication between client-side application
-// and a server
 
+//Browsing APIs :-> 
+//Third APIs   :->  
+//Backend APIs  :->  
+ 
+
+//Request type of apis:  ->
+// Get. when you are fetching data  (default)
+// Post. when you are sending data
+// Put.  when you are replacing full data
+// Patch  when you are replacing one small data.
+// Delete when you are deleting the data from server
+
+
+
+
+//----------------------------------task with random user api-----------------------------------------
 let btn = document.querySelector("button");
 
 //adding eventlistener to button and fetching data
