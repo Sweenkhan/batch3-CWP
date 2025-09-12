@@ -1,0 +1,50 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+.wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+
+}
+.create-account{
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 40%;
+    border: 1px solid grey;
+    border-radius: 20px;
+    padding: 2rem;
+}
+
+form{
+   display: flex;
+   justify-content: center;
+   /* align-items: center; */
+   flex-direction: column;
+    width: 100%;
+}
+
+input{
+margin-bottom: 12px;
+width: 100%;
+font-size: 1.2rem;
+padding-left: 10px
+}
+
+button{
+    margin: 1rem 0 0;
+    padding: 10px 28px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    font-weight: 700;
+    background-color: black;
+    color: white;
+}
