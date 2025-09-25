@@ -17,3 +17,27 @@
 
 // . empty fragments  <> </>
 // to groupism your code into one child
+
+
+
+
+//1 way-----------------------------first day learning----------------------CRA
+// npx create-react-app 01-react
+// cd 01-react
+// npm start
+
+//note: you can write extention name (js or jsx)
+
+
+
+
+
+//2nd way----------------------------second day learning----------------------------vite + react
+// npm create vite@latest 
+// 02-vite-react                      (project name)
+// react                              (choose from dropdown )
+// javaScript                         (choose from dropdown)
+
+
+// cd 02-vite-react, npm install, npm run dev
+//note: you have to give extenstion name for react component (jsx only)
