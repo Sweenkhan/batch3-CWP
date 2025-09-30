@@ -8,6 +8,7 @@
 //!1. JSX (javascript syntax extension)
 //2. component based architecture.
 //3. virtaul DOM
+//4. react is spa application
 
 //Q.3 What is a component in react?
 // components are independent and reausable bits of code. they serve the same purpose as javascript
@@ -41,3 +42,12 @@
 
 // cd 02-vite-react, npm install, npm run dev
 //note: you have to give extenstion name for react component (jsx only)
+
+
+
+//--------------------------HOOKS IN REACT JS------------------------------------
+// REACT hooks are function that allow you to use state and other react features in functional component.
+// manage state, side effect and other logic without writing class component.
+
+
+//State Hook:->
