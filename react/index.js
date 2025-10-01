@@ -45,9 +45,17 @@
 
 
 
+//--------------------------------------PROPS---------------------------------------
+//Props are arguments passed into React components.
+//Props are passed to components via HTML attributes.
+//props are one way data communication. (from parent to child)
+
+
+
+
 //--------------------------HOOKS IN REACT JS------------------------------------
 // REACT hooks are function that allow you to use state and other react features in functional component.
 // manage state, side effect and other logic without writing class component.
 
 
-//State Hook:->
+//State Hook:-> to manage state in react. (suppose a variabel which is changing later. and you want to show the result into your browser).
