@@ -58,4 +58,7 @@
 // manage state, side effect and other logic without writing class component.
 
 
+
 //State Hook:-> to manage state in react. (suppose a variabel which is changing later. and you want to show the result into your browser).
+
+//UseEffect Hook:-> to handle effect in react component (mostly use for api). useEffect hook takes two argument(first an action, and second will a deppendency array)
