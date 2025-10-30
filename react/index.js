@@ -62,3 +62,7 @@
 //State Hook:-> to manage state in react. (suppose a variabel which is changing later. and you want to show the result into your browser).
 
 //UseEffect Hook:-> to handle effect in react component (mostly use for api). useEffect hook takes two argument(first an action, and second will a deppendency array)
+
+//note:->  (() => {}, [])  if array is empty. useEffect will work only for once. when you component will render on browser
+//(() => {}, [search])  if dependency array has a dependecy. whenevery state of dependency of array will change. useEffect will run again.
+//(() => { return ()=> {}}, []). if you have used return fucntion . it will controlled the component behaviour after removed component from the document.
