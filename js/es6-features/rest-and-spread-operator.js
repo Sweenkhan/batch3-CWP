@@ -14,7 +14,7 @@ let profile2 = profile                      //it will point to the same data
 
 
 //--------------------------------------------SPREAD OPERATOR--------------------------------------
-//note: it willl extract the data from the array
+//note: it willl extract the data from the array and object
 
 let profile3 = {...profile}
 profile3.name = "banwar"
