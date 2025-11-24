@@ -66,3 +66,11 @@
 //note:->  (() => {}, [])  if array is empty. useEffect will work only for once. when you component will render on browser
 //(() => {}, [search])  if dependency array has a dependecy. whenevery state of dependency of array will change. useEffect will run again.
 //(() => { return ()=> {}}, []). if you have used return fucntion . it will controlled the component behaviour after removed component from the document.
+
+
+
+
+let div = document.querySelector("div")
+div.innerHTML = "this is our first web app"
+
+
